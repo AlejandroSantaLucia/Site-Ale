@@ -1,0 +1,885 @@
+/* gris oscuro #594F4F  89,79,79
+gris claro #547980   84,121,128
+celesto oscuro #45ADA8   69,173,168
+celeste claro #9DE0AD   157,224,173
+verde muy claro #E5FCC2     229,252,194
+Celeste prueba #3472cd
+
+
+font-family: 'Red Rose', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Russo One', sans-serif;
+
+*/
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../icomoon/fonts/icomoon.eot?nykrmw');
+    src:  url('../icomoon/fonts/icomoon.eot?nykrmw#iefix') format('embedded-opentype'),
+      url('../icomoon/fonts/icomoon.ttf?nykrmw') format('truetype'),
+      url('../icomoon/fonts/icomoon.woff?nykrmw') format('woff'),
+      url('../icomoon/fonts/icomoon.svg?nykrmw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-mail:before {
+    content: "\ea86";
+  }
+  .icon-facebook:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+
+
+
+.icon-menu {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+color:  #9DE0AD;
+
+position: fixed;
+top: 5px;
+right: 8px;
+z-index: 30;
+
+}
+
+.wrapper { 
+   
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    max-width: 1300px;
+    margin: 0 auto;
+    background: inherit;
+    background-color: inherit;
+    flex-wrap: inherit;
+    flex:  inherit;
+    align-content: inherit;
+    text-align: inherit;
+
+}
+
+
+header { background-color: #9DE0AD;
+    
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    
+  
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 1px;
+    z-index: 10;
+    
+
+   }
+
+header img { height: 54px;}
+   
+   
+.titulo-header { color: white;
+    font-size: 45px;
+    text-decoration: none;
+    padding-top: 0px; 
+    padding-left: 5px;  
+   }
+
+   
+
+header nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    box-shadow: 0px 0px 2px white;
+    
+    
+
+}
+.nav-header ol { 
+    display: flex;
+    list-style: none;
+}
+
+li :hover {
+    background-color:#3472cd ;
+    opacity: 0.5;
+}
+
+body { background-color: #E5FCC2;
+margin: 0px;}
+
+
+.hero   { background-color: #9DE0AD;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Red Rose', cursive;
+    /* flex-wrap: wrap; */
+    
+
+}
+
+.hero h1 { font-size: 60px; max-width: 800px;
+padding: 30px;
+line-height: 45px ;
+text-transform: capitalize;
+text-shadow: 1px 1px 2px black;
+
+}
+
+.hero h1 strong { color: white;}
+
+.hero img { 
+    object-fit: cover;
+    max-width: 400px;
+}
+
+
+.section-title { 
+    max-width: 500px;
+    background-color: #3472cd;
+    color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+
+   
+}
+
+.introduccion {  padding-left: 10px;
+ padding-right: 10px;
+}
+
+
+
+
+
+
+.empresaContainer {
+    border: solid #3472cd 1px;
+border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white  ;
+padding: 5px 20px 5px 8px;
+margin: 5px 30px;
+box-shadow: 0px 0px 5px black;
+flex-wrap: wrap;
+
+}
+
+.detalle-empresa { 
+    /* width: 600px; */
+    width: 49%;
+
+}
+
+/*font-family: 'Red Rose', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Russo One', sans-serif;*/
+
+.titulo-empresa { 
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    font-family: 'Roboto', sans-serif;
+    color: #3472cd;
+}
+.subtitulo-empresa{
+    padding-top: 1px;
+    margin-top: 1px;
+}
+
+.posicion-empresa {
+    color: #594F4F;
+
+}
+.fecha-empresa{ 
+    color: #594F4F;
+
+}
+
+
+
+
+.imagen-empresaContainer { 
+    /* border: solid #594F4F 1px; */
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.imagen-empresaContainer img {
+    max-width: 100%;
+}
+
+.imagen-empresa {
+    max-width: 260px;
+}
+
+
+
+
+
+.educacionSection { background-color: white;}
+
+.educacionContainer {   
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px ;
+flex-wrap: wrap;
+}
+
+
+
+.academico { font-family: 'Roboto', sans-serif;
+
+
+}
+
+.idiomas { display: flex;
+    align-items: center;}
+
+
+.intereses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.interesesBox  { max-width: 600px;
+    border: solid #3472cd 1px;
+border-radius: 10px;
+background-color: white;
+margin: 5px;
+box-shadow: 0px 0px 5px black;
+overflow: hidden;
+
+
+
+ }
+
+ .interesesBox img { width: 100%;
+height: 400px;
+object-fit: cover;
+
+}
+
+
+ .interesesBox h2 { font-family: 'Russo One', sans-serif; 
+letter-spacing: 5px;
+text-align: center   ;
+}
+
+.interes-detail { margin: 20px;
+background-color: #9DE0AD;
+margin-top: -40px;
+position: relative;
+padding: 15px;
+
+}
+.interes-description {
+    letter-spacing: 2px;
+}
+
+.yogaCita { 
+text-align: center;}
+
+.videoContainer {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+    
+}
+
+.lluvia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.videoBeatle {
+    max-width: 100%  ;
+    /* max-height: 350px; */
+
+}
+
+ .paisesContainer
+ { max-width: 350px;
+    border: solid black 1px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+background-color: #E5FCC2;
+margin: 5px 25px; 
+box-shadow: 0px 0px 5px black;
+
+}
+
+.paisesvisitados { text-align: center;
+    background-image: url("../imagenes/bandera-arg-fondo.png");
+    background-size: contain;
+    margin: 0px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+
+}
+
+
+.continente
+{
+    background-color: black ;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.banderasContainer
+{ display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 5px;
+   background-color: white;
+   object-fit: contain;
+   overflow: hidden;
+
+}
+
+.bandera { width: 50px;
+    height: 50px;
+
+}
+
+.contacto-title{
+    display: none
+}
+
+.contactoSection {background-color: #9DE0AD;
+    margin-top: 15px;
+
+}
+
+
+.contactosContainer {
+background-color: #9DE0AD;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+
+.contactosContainer div input {
+    background-image: url("../imagenes/mail-svg.svg");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 5px 25px;
+    background-position-y: center;
+    background-position-x: 5px;
+    border: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.contactosContainer div button { 
+    background-color: transparent;
+    display: block;
+    border: white 1px solid;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    width: 90px;
+    margin: 10px auto;
+
+}
+
+
+.social {
+    
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: 50px 50px;
+    margin: 0px 10px;
+}
+
+
+
+.Contact-icon {
+
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 0 15px
+}
+
+
+nav  :hover  {
+    
+    opacity: 0.5;
+}
+
+
+/* .social.facebook { 
+    background-image: url("../imagenes/facebook-svg.svg");
+    
+}
+.social.email { 
+    background-image: url("../imagenes/mail-svg.svg");
+    
+}
+.social.instagram { 
+    background-image: url("../imagenes/instagram-svg.svg");
+    
+}
+.social.whatsapp { 
+    background-image: url("../imagenes/whatsapp-svg.svg");
+
+
+    }
+     */
+
+footer {
+        color: white;
+        background-color: #9DE0AD;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex:   1;
+        
+      }
+
+footer img {
+        vertical-align: middle;
+        margin: auto 5px
+      }
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+ /* .hero {
+     text-align: center;
+ } */
+
+.hero h1 {
+    max-width: initial;
+    font-size: 3em;
+    margin-top: .1em;
+    margin-bottom: .4em;
+    padding: .5em;
+}
+
+.hero img {
+    margin: 0 auto;
+}
+
+
+    .detalle-empresa {
+        font-size: 16px;
+    }
+
+
+    .titulo-empresa {
+        font-size: 1.5em
+
+    }
+
+    .subtitulo-empresa{
+        font-size: .8em
+
+    }
+
+.titulo-empresaViajando{
+    font-size: 1.3em
+
+}
+
+.posicion-empresa{
+
+    font-size: 1.2em;
+    margin: .3em auto;
+
+}
+
+.fecha-empresa{
+
+    font-size:.8em
+}
+
+.puesto-empresa{
+    font-size: 1em
+
+}
+
+.interes-detail {
+    font-size: 16px;
+}
+
+.tipo-interes { 
+    font-size: 1.5em
+
+}
+
+.interes-description {
+    font-size: 1em;
+}
+
+.paisesContainer { 
+    font-size: 16px;
+}
+
+.paisesvisitados {
+    font-size: 1.5em;
+}
+
+.continente {
+    font-size: 1em;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.wrapper{
+    padding: 0 1em;
+}
+
+header  { display: block;
+
+text-align: center;
+position: static;
+
+
+
+}
+.icon-menu {
+    display: flex;
+}
+.nav-header{
+    position: fixed;
+    z-index: 29;
+    top: 0;
+    left: -100vw;
+    background-color: rgba(157, 224, 173, .8);
+    width: 100vw;
+    transition: .3s;
+
+}
+    
+.nav-header.is-active {
+    left: 0;
+}
+
+.nav-header ol {
+
+    display: block;
+}
+
+
+.nav-header ol li {
+    height: 30px;
+    display: initial;
+    text-align: center; 
+}
+
+.nav-header ol li a{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(157, 224, 173, 1);
+} 
+
+/* 
+.nav-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1em;
+   
+  
+}
+
+.nav-header ol {
+   
+    list-style-type: none;
+    padding:0px;
+}
+*/
+.hero { 
+    position: relative;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.hero h1 { 
+    font-size: 3em;
+    line-height: 1em;
+    z-index: 2;
+    color: #9DE0AD
+    
+}
+
+
+.hero img {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: inherit;
+    
+
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+.icon-menu {
+    display: flex;
+}
+
+.section-title { 
+    /* width: auto; */
+}
+.nav-header{
+    position: fixed;
+    z-index: 29;
+    top: 0;
+    left: -100vw;
+    background-color: rgba(157, 224, 173, .8);
+    width: 100vw;
+    transition: .3s;
+
+}
+    
+.nav-header.is-active {
+    left: 0;
+}
+
+
+    .nav-header ol {
+
+    display: block;
+}
+
+.nav-header a {
+    background-color: rgba(157, 224, 173, 1);
+}
+
+.hero h1 { 
+    font-size: 2em;
+    line-height: 1em;
+
+}
+
+
+
+.introduccion { 
+    font-size: .8em;
+}
+
+
+.empresaContainer {
+    display: block;
+    padding: 5px 10px 5px 8px;
+margin: 5px 12px;
+
+}
+
+.detalle-empresa {
+    width: auto;
+}
+
+.imagen-empresaContainer {
+    width: auto;
+    justify-content: center;
+}
+
+
+.academico {
+    font-size: 1.5em;
+}
+
+.tipo-educacion {
+    font-size: 1em;
+}
+
+.educacion-description {
+    font-size: .8em;
+
+}
+
+.idiomas li {
+    font-size: .8em;
+
+}
+
+
+
+.interesesBox {
+    margin: 10px;
+}
+
+.interesesBox img {
+    height: 300px;
+
+}
+
+.interes-detail {
+    margin: -40px 10px 10px 10px
+}
+
+.contactosContainer {
+    text-align: center;
+    display: block;
+  padding: 1em;
+  height: auto;
+}
+
+footer { 
+    display: block;
+    text-align:center;
+    border: solid 1px transparent
+}
+
+.Contact-icon {
+
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 10px
+
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    header {
+        text-align: center;
+}
+
+.wrapper{
+    padding: 0;
+}
+
+.hero h1 { 
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+
+
+
+.detalle-empresa {
+    font-size: 12px;
+}
+
+.interesesBox img {
+    height: 200px;
+
+}
+
+.interes-detail {
+    font-size: 11px;
+    padding: 7px;
+}
+
+.paisesContainer {
+    font-size: 11px
+}
+
+.bandera {
+    width: 30px;
+    height: 30px;
+}
+
+.Contact-icon {
+
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 10px
+}
+
+/* .social {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+} */
+
+
+}
